@@ -37,7 +37,7 @@ body{
 }
 
 .film-reel{
-	background:url("assets/img/filmreel.png") repeat-y 0 / 100% auto;
+	background:url("https://images2.imgbox.com/2b/4f/uYn6cvY3_o.png") repeat-y 0 / 100% auto;
 	height:820px; /* this value is not important, just not zero */
   width: 250px;
 	animation: infinite-loop 60s linear infinite ;
