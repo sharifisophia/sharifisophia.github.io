@@ -37,7 +37,7 @@ body{
 }
 
 .film-reel{
-	background:url(file:///Users/sophiasharifi/Desktop/meme_vault/assets/img/filmreel.png) repeat-y 0 / 100% auto;
+	background:url(assets/img/filmreel.png) repeat-y 0 / 100% auto;
 	height:820px; /* this value is not important, just not zero */
   width: 250px;
 	animation: infinite-loop 60s linear infinite ;
