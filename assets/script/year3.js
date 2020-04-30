@@ -151,3 +151,33 @@ function checkControls2() {
 		prevButton2.classList.remove("hidden");
 	}
 }
+
+nextButton2.onclick = showNextImage2;
+prevButton2.onclick = showPrevImage2;
+
+
+function showNextImage3() {
+	imageNum = imageNum + 1;
+	let newWidth = (width * imageNum) * -1;
+	imageRow3.style.left = newWidth + "px";
+  checkControls3();
+}
+
+function showPrevImage3() {
+	imageNum = imageNum - 1;
+	let newWidth = (width * imageNum) * -1;
+	imageRow3.style.left = newWidth + "px";
+	checkControls3();
+}
+
+function checkControls3() {
+	if (imageNum == 0) {
+		prevButton3.classList.add("hidden");
+	}
+	else if (prevButton3.classList.contains("hidden")) {
+		prevButton3.classList.remove("hidden");
+	}
+}
+
+nextButton3.onclick = showNextImage3;
+prevButton3.onclick = showPrevImage3;
