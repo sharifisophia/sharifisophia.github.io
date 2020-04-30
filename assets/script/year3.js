@@ -150,3 +150,4 @@ function checkControls2() {
 	else if (prevButton2.classList.contains("hidden")) {
 		prevButton2.classList.remove("hidden");
 	}
+}
