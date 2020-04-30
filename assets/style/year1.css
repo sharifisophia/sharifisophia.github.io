@@ -98,13 +98,18 @@ a {
   height: 400px;
 }
 
- button .button-next, .button-previous{
-   display: flex;
-   justify-content: center;
 
-   font-family: termina, sans-serif;
-   font-weight: 400;
-   font-style: normal;
-
-   color: #0D57AD;
+button{
+   background-color: #E85EA3; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
  }
+
+.controls{
+  text-align: center;
+}
