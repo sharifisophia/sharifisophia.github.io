@@ -98,7 +98,7 @@ a {
   height: 400px;
 }
 
- .button-next, .button-previous{
+ button .button-next, .button-previous{
    display: flex;
    justify-content: center;
 
