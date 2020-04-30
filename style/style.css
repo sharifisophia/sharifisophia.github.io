@@ -1,0 +1,144 @@
+body{
+  background-color: #FCFCA5;
+}
+
+#title-text{
+  font-family: termina, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+
+  font-size: 40px;
+  color: #E85EA3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  position: absolute;
+  text-align: center;
+  top: -10px;
+  right: 150px;
+}
+
+#subtitle-text {
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #0D57AD;
+
+  position: absolute;
+  text-align: center;
+  right: 305px;
+  top: 130px;
+
+}
+
+@keyframes infinite-loop{
+	0%{background-position: 0 0;}
+	100%{background-position: 0 100vh;}
+}
+
+.film-reel{
+	background:url(file:///Users/sophiasharifi/Desktop/meme_vault/assets/img/filmreel.png) repeat-y 0 / 100% auto;
+	height:820px; /* this value is not important, just not zero */
+  width: 250px;
+	animation: infinite-loop 60s linear infinite ;
+
+  position: absolute;
+  left: 30px;
+  top: 0px;
+}
+
+.vault{
+  position: absolute;
+  right: 400px;
+  bottom: 0px;
+}
+
+@keyframes floating-year1{
+   0% { bottom: 325px; }
+   50% { bottom: 300px; }
+   100% { bottom: 325px; }
+}
+
+@keyframes floating-year2{
+  0% { bottom: 350px; }
+  50% { bottom: 320px; }
+  100% { bottom: 350px; }
+}
+
+@keyframes floating-year3{
+  0% { bottom: 400px; }
+  50% { bottom: 375px; }
+  100% { bottom: 400px; }
+}
+
+@keyframes floating-year4{
+  0% { bottom: 375px; }
+  50% { bottom: 350px; }
+  100% { bottom: 375px; }
+}
+
+#year1{
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #0D57AD;
+
+  position: absolute;
+  text-align: center;
+  right: 600px;
+  bottom: 400px;
+
+  animation: floating-year1 4s ease-in 0s infinite reverse;
+}
+
+#year2{
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #0D57AD;
+  position: absolute;
+  text-align: center;
+  right: 500px;
+  bottom: 350px;
+
+  animation: floating-year2 4s ease-in 0s infinite reverse;
+}
+
+#year3{
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #0D57AD;
+  position: absolute;
+  text-align: center;
+  right: 550px;
+  bottom: 400px;
+
+  animation: floating-year3 4s ease-in 0s infinite reverse;
+}
+#year4{
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  color: #0D57AD;
+  position: absolute;
+  text-align: center;
+  right: 650px;
+  bottom: 400px;
+
+  animation: floating-year4 4s ease-in 0s infinite reverse;
+}
+
+
+#year1:hover, #year2:hover, #year3:hover, #year4:hover{
+  opacity: 50%;
+}
+
+a {
+   text-decoration: none;
+   font-size:30px;
+}
